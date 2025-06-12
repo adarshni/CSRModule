@@ -1,0 +1,57 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyNMcxUEsLPBX914JiVzroEB",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/adarshni/CSRModule/blob/mytask/Untitled1.py\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "0w9IqkJXVF8Q"
+      },
+      "outputs": [],
+      "source": [
+        " pip install babyagi"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import babyagi\n",
+        "\n",
+        "if __name__ == \"__main__\":\n",
+        "     app = babyagi.create_app('/dashboard')\n",
+        "     app.run(host='0.0.0.0', port=8080)"
+      ],
+      "metadata": {
+        "id": "LoBWLqhifoaE"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
